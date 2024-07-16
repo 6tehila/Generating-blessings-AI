@@ -1,0 +1,22 @@
+# Ignore dotenv files
+.env
+
+# Ignore npm dependencies
+/node_modules
+
+# Ignore log files
+*.log
+
+# Ignore build output
+/build
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore local configuration files
+config.json
