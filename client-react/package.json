@@ -1,7 +1,7 @@
 {
     "scripts": {
       "start": "cd client-react/clientai && npm start",
-      "build": "cd client-react/clientai && npm install && npm run build",
+      "build": "cd client-react/clientai; npm install; npm run build",
       "test": "cd client-react/clientai && npm test",
       "eject": "cd client-react/clientai && npm run eject"
     }
