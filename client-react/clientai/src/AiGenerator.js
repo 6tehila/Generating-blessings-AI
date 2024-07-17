@@ -12,7 +12,7 @@ const AiGenerator = () => {
 
   const handleSubmit = async (event) => {
     event.preventDefault();
-    await fetchPrompts('http://localhost:5000/prompts', {
+    await fetchPrompts('https://generating-blessings-ai-server.onrender.com/prompts', {
       'event-type': eventType,
       'blessing-type': blessingType,
       'mood-type': moodType
