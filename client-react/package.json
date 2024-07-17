@@ -1,9 +1,0 @@
-{
-  "scripts": {
-    "start": "ls -la && cd client-react/clientai; npm start",
-    "prebuild": "cd client-react/clientai; npm install",
-    "build": "cd client-react/clientai; npm run build",
-    "test": "ls -la && cd client-react/clientai; npm test",
-    "eject": "ls -la && cd client-react/clientai; npm run eject"
-  }
-}
